@@ -1,0 +1,86 @@
+/*------------RESET--------------*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+
+/*------------BASE--------------*/
+body {
+  background-color: #16161d;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #e7e7e7;
+  text-align: center;
+}
+
+.container-bg {
+  margin: 0%;
+  background-image: url(https://i0.wp.com/imgs.hipertextual.com/wp-content/uploads/2022/04/unreal-engine-5.jpeg?resize=1200%2C676&quality=50&strip=all&ssl=1);
+  background-size: cover;
+  background-attachment: fixed;
+  width: auto;
+  height: 90vh;
+}
+
+a {
+  text-decoration: underline;
+  color: black;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: #16161d;
+}
+
+h1 {
+  margin-top: 0 !important;
+}
+
+h1,
+h2,
+h3 {
+  margin: 2% 0%;
+  font-weight: 800;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 0.5rem;
+  margin: 2%;
+}
+
+.columns {
+  display: grid;
+  /*grid-template-rows: 1fr 1fr 1fr;*/
+  gap: 0.5rem;
+  margin: 2%;
+  height: 100vh;
+  width: auto;
+}
+
+.card {
+  background-color: #c4c4c4;
+  border-color: #fff;
+  border-style: solid;
+  border-width: medium;
+  border-radius: 12%;
+  padding: 4%;
+  color: black;
+}
+
+.card p {
+  text-align: justify;
+}
+
+.alt {
+  background-color: #fff;
+  height: 150px;
+  width: auto;
+}
+
+span {
+  font-weight: 900;
+}
